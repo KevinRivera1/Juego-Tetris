@@ -1,0 +1,75 @@
+body{
+  height: 80vh;
+  width: 90%;
+  background-image: url("https://cdn.pixabay.com/photo/2020/08/02/14/18/blue-5457731_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(0, 204, 255);
+  border: 8px groove #9df511;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.tetromino {
+  background-color: blue;
+}
+
+.mini-grid {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px groove salmon;
+  background-color: yellow;
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+}
+
+#start-button {
+  position: absolute;
+  border-radius: 14%;
+  background-color: goldenrod;
+  color: white;
+  font-weight: bold;
+  left: 520px;
+  top: 115px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.title {
+  position: relative;
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 50px;
+  color:white;
+}
+#score {
+  margin-left: 10px;
+  color: red;
+}
+
